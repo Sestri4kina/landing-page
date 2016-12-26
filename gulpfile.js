@@ -8,6 +8,7 @@ gulp.task('styles', function() {
 });
 
 //Watch task
+//run: gulp sass:watch
 gulp.task('sass:watch',function() {
     gulp.watch('sass/**/*.scss',['styles']);
 });
