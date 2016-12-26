@@ -95,7 +95,7 @@ p {
 
 /* FOOTER */
 .footer {
-  background: url("../images/img-footer.jpg.jpg") no-repeat center center;
+  background: url("../images/img-footer.jpg") no-repeat center center;
   background-size: cover;
   height: 600px;
   text-align: center; }
@@ -125,23 +125,19 @@ a.btn:hover {
   background: #ffa800;
   color: #000; }
 
+/* MEDIA QUERIES */
 @media (min-width: 600px) {
   .main h1 {
-    font-size: 13em; }
-
+    font-size: 8em; }
   .supporting .col {
     width: 30%; }
-
   .supporting h2 {
     font-size: 40px; }
-
   .supporting p {
     font-size: 14px; }
-
   .feature h2 {
     font-size: 60px; } }
-@media (max-width: 400px) {
-  .main h1 {
-    font-size: 6em; } }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 450px) {
+  .main h1 {
+    font-size: 5em; } }
